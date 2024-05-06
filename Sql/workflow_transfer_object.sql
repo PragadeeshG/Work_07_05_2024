@@ -1,0 +1,15 @@
+create table if not exists workflow_transfer_object(
+flow_code Integer not null,
+flow_type varchar(255) null,
+flow_ref_id varchar(255) null,
+flow_screen_id varchar(255) null,
+ordered_cr_id Integer null,
+order_type_code Integer null,
+user_id Integer null,
+key_atttribute varchar(255) null,
+order_desc varchar(255) null,
+ket_attr_value varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint workflow_transfer_object_pk primary key(flow_code));

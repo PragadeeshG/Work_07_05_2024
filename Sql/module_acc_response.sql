@@ -1,0 +1,15 @@
+create table if not exists module_acc_response(
+module_acc_id Integer not null,
+module_acc_owner varchar(255) null,
+activemodule_acc char null,
+module_acc_type_id Integer null,
+module_acc_type varchar(255) null,
+module_acc_status varchar(255) null,
+module_acc_description Integer null,
+user_groups_count Integer null,
+user_countries varchar(255) null,
+user_countries_count Integer null,
+user_groups varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint module_acc_response_pk primary key(module_acc_id));
